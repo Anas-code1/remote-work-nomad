@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RoamSphere — Remote Work & Digital Nomad Lifestyle</title>
+  <meta name="description" content="The definitive platform for remote professionals and digital nomads. Access verified gigabit cafe maps, digital nomad visa pathways, global health insurance, and vetted coliving spaces across 65+ countries.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Section 1: Sticky Header / Nav -->
+  <header class="header">
+    <div class="container nav-container">
+      <a href="#hero" class="logo" id="logo-link">
+        <div class="logo-mark">R</div>
+        <span>RoamSphere</span>
+      </a>
+      
+      <ul class="nav-links">
+        <li><a href="#features">Features</a></li>
+        <li><a href="#how-it-works">How It Works</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <div class="nav-cta">
+        <a href="#contact" class="btn btn-primary" id="header-cta-btn">Explore Plans</a>
+        <button class="hamburger" id="hamburger-btn" aria-label="Toggle navigation menu" aria-expanded="false">
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round">
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Nav Menu -->
+    <div class="mobile-menu" id="mobile-menu">
+      <a href="#features">Features</a>
+      <a href="#how-it-works">How It Works</a>
+      <a href="#testimonials">Testimonials</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#faq">FAQ</a>
+      <a href="#contact">Contact</a>
+      <a href="#contact" class="btn btn-primary" style="margin-top: 0.5rem; text-align: center;">Explore Plans</a>
+    </div>
+  </header>
+
+  <main>
+    <!-- Section 2: Hero Section -->
+    <section id="hero" class="hero">
+      <div class="hero-glow"></div>
+      <div class="hero-glow-2"></div>
+      <div class="container">
+        <div class="hero-grid">
+          <div class="hero-content">
+            <div class="pill-badge">Location Independence Reimagined</div>
+            <h1>Live and Work Anywhere with <span>Zero Friction or Surprises</span></h1>
+            <p>The definitive platform for remote professionals and digital nomads. Access verified gigabit cafe maps, digital nomad visa pathways, global health insurance, and vetted coliving spaces across 65+ countries.</p>
+            <div class="hero-actions">
+              <a href="#contact" class="btn btn-primary" id="hero-cta-btn">Explore Plans</a>
+              <a href="#how-it-works" class="btn btn-secondary" id="hero-secondary-btn">See How It Works</a>
+            </div>
+            <div class="hero-trust">
+              <div class="trust-avatars">
+                <div class="trust-avatar">A</div>
+                <div class="trust-avatar">B</div>
+                <div class="trust-avatar">C</div>
+                <div class="trust-avatar">D</div>
+              </div>
+              <div>
+                <strong>Trusted by 10,000+</strong> ambitious members worldwide
+              </div>
+            </div>
+          </div>
+
+          <!-- Hero Visual: Pure CSS / SVG Interface Visual -->
+          <div class="hero-visual">
+            <div class="visual-canvas">
+              <div class="visual-header">
+                <div class="visual-dots">
+                  <div class="visual-dot"></div>
+                  <div class="visual-dot"></div>
+                  <div class="visual-dot"></div>
+                </div>
+                <div class="visual-title-bar"></div>
+                <div class="visual-dot" style="background: var(--primary);"></div>
+              </div>
+              <div class="visual-body">
+                <div class="visual-card">
+                  <div class="visual-card-icon">
+                    <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 13l4 4L19 7"/></svg>
+                  </div>
+                  <div class="visual-card-text">
+                    <div class="visual-card-title">Verified Gigabit Wi-Fi Atlas</div>
+                    <div class="visual-card-subtitle">Active & fully optimized</div>
+                  </div>
+                  <div class="visual-badge">100%</div>
+                </div>
+
+                <div class="visual-card">
+                  <div class="visual-card-icon">
+                    <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
+                  </div>
+                  <div class="visual-card-text">
+                    <div class="visual-card-title">Nomad Visa & Tax Concierge</div>
+                    <div class="visual-card-subtitle">Real-time automation active</div>
+                  </div>
+                  <div class="visual-badge">Live</div>
+                </div>
+
+                <div class="visual-card">
+                  <div class="visual-card-icon">
+                    <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+                  </div>
+                  <div class="visual-card-text">
+                    <div class="visual-card-title">Global Telehealth & Tech Insurance</div>
+                    <div class="visual-card-subtitle">Peak performance verified</div>
+                  </div>
+                  <div class="visual-badge">Sync</div>
+                </div>
+              </div>
+
+              <div class="floating-stat-pill">
+                <span>✈️ 120+ Global destinations vetted</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 3: Features / Services -->
+    <section id="features" class="section">
+      <div class="container">
+        <div class="section-header">
+          <div class="pill-badge">Core Capabilities</div>
+          <h2>Engineered Specifically for Your Success</h2>
+          <p>Everything you need to eliminate friction, maximize output, and achieve real results.</p>
+        </div>
+        <div class="grid-3">
+          
+        <div class="card">
+          <div class="card-icon-wrap"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"><path d="M8.111 16.404a5.5 5.5 0 017.778 0M12 20h.01m-7.08-7.071c3.904-3.905 10.236-3.905 14.141 0M1.394 9.393c5.857-5.857 15.355-5.857 21.213 0"/></svg></div>
+          <h3>Verified Gigabit Wi-Fi Atlas</h3>
+          <p>Over 14,000 tested cafes, colivings, and workspaces with guaranteed minimum 150 Mbps upload and download speeds.</p>
+        </div>
+
+        <div class="card">
+          <div class="card-icon-wrap"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z"/></svg></div>
+          <h3>Nomad Visa & Tax Concierge</h3>
+          <p>Step-by-step legal pathways, tax treaties, and consulate filing checklists for 55+ digital nomad visa programs.</p>
+        </div>
+
+        <div class="card">
+          <div class="card-icon-wrap"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg></div>
+          <h3>Global Telehealth & Tech Insurance</h3>
+          <p>Worldwide borderless medical coverage and laptop replacement insurance with zero deductible abroad.</p>
+        </div>
+
+        <div class="card">
+          <div class="card-icon-wrap"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"/></svg></div>
+          <h3>Vetted Coliving Communities</h3>
+          <p>Exclusive discounts on accredited nomad villas and coliving spaces with dedicated private quiet call booths.</p>
+        </div>
+
+        <div class="card">
+          <div class="card-icon-wrap"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
+          <h3>Time-Zone Overlap Planner</h3>
+          <p>Visual scheduling matrix to effortlessly maintain 4 hours of live client team overlap across distant meridians.</p>
+        </div>
+
+        <div class="card">
+          <div class="card-icon-wrap"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"/></svg></div>
+          <h3>Local Nomad Meetup Circles</h3>
+          <p>Connect with verified remote tech founders, designers, and creators landing in the same city each week.</p>
+        </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 4: How It Works / About -->
+    <section id="how-it-works" class="section section-alt">
+      <div class="container">
+        <div class="section-header">
+          <div class="pill-badge">Simple 3-Step Process</div>
+          <h2>How RoamSphere Works</h2>
+          <p>Getting started takes less than 3 minutes. Here is how we make transformation effortless.</p>
+        </div>
+        <div class="steps-grid">
+          
+        <div class="step-card">
+          <div class="step-number">1</div>
+          <h3>Pick Your Next Hub</h3>
+          <p>Filter 120+ destinations by cost of living, safety index, weather, and verified fiber-optic internet speed.</p>
+        </div>
+
+        <div class="step-card">
+          <div class="step-number">2</div>
+          <h3>Access Visas & Essentials</h3>
+          <p>Unlock pre-compiled legal filings, international eSIM packages, and community housing with zero hassle.</p>
+        </div>
+
+        <div class="step-card">
+          <div class="step-number">3</div>
+          <h3>Work and Thrive Anywhere</h3>
+          <p>Touch down at your destination ready to deliver exceptional remote work from day one.</p>
+        </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 5: Social Proof / Testimonials -->
+    <section id="testimonials" class="section">
+      <div class="container">
+        <div class="section-header">
+          <div class="pill-badge">Member Stories</div>
+          <h2>Loved by Users Around the Globe</h2>
+          <p>Read real experiences from everyday members who leveled up with RoamSphere.</p>
+        </div>
+        <div class="grid-3">
+          
+        <div class="testimonial-card">
+          <div class="stars">
+            <svg viewBox="0 0 20 20" width="18" height="18" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg><svg viewBox="0 0 20 20" width="18" height="18" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg><svg viewBox="0 0 20 20" width="18" height="18" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg><svg viewBox="0 0 20 20" width="18" height="18" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg><svg viewBox="0 0 20 20" width="18" height="18" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+          </div>
+          <p class="testimonial-quote">“I worked from Lisbon, Madeira, and Tokyo this year without a single dropped client call. RoamSphere’s speed-tested maps are an absolute lifesaver.”</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">LF</div>
+            <div>
+              <div class="author-name">Lucas Fontaine</div>
+              <div class="author-role">Remote Cloud Architect</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="stars">
+            <svg viewBox="0 0 20 20" width="18" height="18" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg><svg viewBox="0 0 20 20" width="18" height="18" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg><svg viewBox="0 0 20 20" width="18" height="18" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg><svg viewBox="0 0 20 20" width="18" height="18" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg><svg viewBox="0 0 20 20" width="18" height="18" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+          </div>
+          <p class="testimonial-quote">“The visa concierge saved me weeks of embassy confusion when transitioning from Chiang Mai to Spain. Truly the gold standard for nomad life.”</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">AC</div>
+            <div>
+              <div class="author-name">Amanda Chen</div>
+              <div class="author-role">Senior Content Strategist</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="stars">
+            <svg viewBox="0 0 20 20" width="18" height="18" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg><svg viewBox="0 0 20 20" width="18" height="18" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg><svg viewBox="0 0 20 20" width="18" height="18" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg><svg viewBox="0 0 20 20" width="18" height="18" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg><svg viewBox="0 0 20 20" width="18" height="18" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+          </div>
+          <p class="testimonial-quote">“Living out of a suitcase sounds romantic until taxes bite you. RoamSphere provided crystal-clear international compliance blueprints in hours.”</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">TM</div>
+            <div>
+              <div class="author-name">Tariq Al-Mansoor</div>
+              <div class="author-role">Fractional Fintech CFO</div>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </section>
+
+    
+    <!-- Section 6: Pricing -->
+    <section id="pricing" class="section section-alt">
+      <div class="container">
+        <div class="section-header">
+          <div class="pill-badge">Transparent Pricing</div>
+          <h2>Simple, Predictable Plans for Everyone</h2>
+          <p>Choose the tier that fits your needs today. Upgrade, downgrade, or cancel anytime.</p>
+        </div>
+        <div class="pricing-grid">
+          
+          <div class="pricing-card ">
+            
+            <div class="pricing-tier">Explorer</div>
+            <div class="pricing-desc">For part-time travelers and remote workers taking 1 to 2 workations per year.</div>
+            <div class="pricing-price">$19<span>/month</span></div>
+            <ul class="pricing-features">
+              <li><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg> Verified Gigabit Wi-Fi Atlas (120+ Cities)</li>
+              <li><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg> Basic Digital Nomad Visa Guides</li>
+              <li><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg> Global eSIM Partner Discounts</li>
+              <li><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg> Community Discord Access</li>
+              <li><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg> Standard City Guides</li>
+            </ul>
+            <a href="#contact" class="btn btn-secondary">Explore Plans</a>
+          </div>
+
+          <div class="pricing-card featured">
+            <div class="popular-badge">Most Popular</div>
+            <div class="pricing-tier">Borderless Pro</div>
+            <div class="pricing-desc">Our flagship plan for full-time nomads, remote contractors, and creators.</div>
+            <div class="pricing-price">$45<span>/month</span></div>
+            <ul class="pricing-features">
+              <li><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg> Everything in Explorer</li>
+              <li><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg> 55+ Country Digital Nomad Visa Concierge</li>
+              <li><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg> Verified Coliving VIP Perks & Discounts</li>
+              <li><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg> Global Laptop & Gear Replacement Guard</li>
+              <li><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg> Time-Zone Overlap Scheduling Engine</li>
+              <li><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg> Curated City Landing Masterminds</li>
+            </ul>
+            <a href="#contact" class="btn btn-primary">Explore Plans</a>
+          </div>
+
+          <div class="pricing-card ">
+            
+            <div class="pricing-tier">Global Pioneer</div>
+            <div class="pricing-desc">White-glove relocation and tax residency advisory for high-earning nomad founders.</div>
+            <div class="pricing-price">$99<span>/month</span></div>
+            <ul class="pricing-features">
+              <li><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg> Everything in Borderless Pro</li>
+              <li><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg> 1-on-1 International Tax Strategy Consult</li>
+              <li><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg> Consulate Fast-Track Filing Assistance</li>
+              <li><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg> 24/7 Global Medical & Travel Hotline</li>
+              <li><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg> Private Angel & Founder Nomad Circles</li>
+            </ul>
+            <a href="#contact" class="btn btn-secondary">Explore Plans</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 7: FAQ Accordion -->
+    <section id="faq" class="section">
+      <div class="container">
+        <div class="section-header">
+          <div class="pill-badge">Got Questions?</div>
+          <h2>Frequently Asked Questions</h2>
+          <p>Everything you need to know about RoamSphere, onboarding, and privacy.</p>
+        </div>
+        <div class="faq-container">
+          
+          <div class="faq-item active">
+            <button class="faq-question" type="button" aria-expanded="true">
+              <span>How do you verify the internet speeds of listed workspaces?</span>
+              <svg class="faq-chevron" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"/>
+              </svg>
+            </button>
+            <div class="faq-answer">
+              <p>Every listing is tested by accredited community members using real hardware speed audits (latency, jitter, upload, and download) during peak working hours.</p>
+            </div>
+          </div>
+
+          <div class="faq-item ">
+            <button class="faq-question" type="button" aria-expanded="false">
+              <span>Does RoamSphere provide legal guidance on digital nomad visas?</span>
+              <svg class="faq-chevron" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"/>
+              </svg>
+            </button>
+            <div class="faq-answer">
+              <p>We provide comprehensive legal filing templates, verified consulate criteria, and connect you directly with licensed immigration attorneys in over 50 countries.</p>
+            </div>
+          </div>
+
+          <div class="faq-item ">
+            <button class="faq-question" type="button" aria-expanded="false">
+              <span>What kind of international medical insurance is included?</span>
+              <svg class="faq-chevron" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"/>
+              </svg>
+            </button>
+            <div class="faq-answer">
+              <p>Our Borderless Pro tier partners with SafetyWing and Genki to offer continuous worldwide emergency health, accidental dental, and gear theft coverage.</p>
+            </div>
+          </div>
+
+          <div class="faq-item ">
+            <button class="faq-question" type="button" aria-expanded="false">
+              <span>Can I pause my membership when I return to my home base?</span>
+              <svg class="faq-chevron" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"/>
+              </svg>
+            </button>
+            <div class="faq-answer">
+              <p>Yes, you can pause your subscription with zero fees whenever you return home and reactivate it instantly on your next international departure.</p>
+            </div>
+          </div>
+
+          <div class="faq-item ">
+            <button class="faq-question" type="button" aria-expanded="false">
+              <span>Is RoamSphere helpful for people who have never worked abroad before?</span>
+              <svg class="faq-chevron" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"/>
+              </svg>
+            </button>
+            <div class="faq-answer">
+              <p>Absolutely! Our "First Stamp" onboarding tracks walk you through banking, SIM cards, packing, and timezone management step-by-step.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 8: Final CTA Banner & Integrated Contact Form -->
+    <section id="contact" class="section section-alt">
+      <div class="container">
+        <div class="cta-banner">
+          <div class="cta-banner-grid">
+            <div>
+              <div class="pill-badge">Get In Touch</div>
+              <h2>Design Your Location-Independent Career</h2>
+              <p>Break free from the traditional cubicle. Join over 24,000 borderless professionals living on their own terms.</p>
+              <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+                <a href="#contact" class="btn btn-primary">Explore Plans</a>
+                <a href="#features" class="btn btn-secondary">Explore Features</a>
+              </div>
+            </div>
+
+            <!-- Frontend Contact Form -->
+            <div class="contact-card">
+              <h3 style="margin-bottom: 0.5rem; font-size: 1.25rem;">Send Us a Message</h3>
+              <p style="color: var(--text-muted); font-size: 0.9rem; margin-bottom: 1.25rem;">Have questions or want a personal walkthrough? Drop us a note.</p>
+              
+              <form id="contact-form">
+                <div class="form-group">
+                  <label for="name">Your Name</label>
+                  <input type="text" id="name" name="name" placeholder="Jordan Lee" required>
+                </div>
+                <div class="form-group">
+                  <label for="email">Email Address</label>
+                  <input type="email" id="email" name="email" placeholder="jordan@example.com" required>
+                </div>
+                <div class="form-group">
+                  <label for="message">Message</label>
+                  <textarea id="message" name="message" rows="3" placeholder="Tell us how we can help you..." required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary" style="width: 100%;">Explore Plans</button>
+                <div id="form-status" class="form-status"></div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Section 9: Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <div class="logo">
+            <div class="logo-mark">R</div>
+            <span>RoamSphere</span>
+          </div>
+          <p>Global Living & Remote Work Navigator. Purpose-built for modern convenience and tangible results.</p>
+          <div class="social-icons">
+            <a href="#" class="social-icon-btn" aria-label="Twitter">
+              <svg viewBox="0 0 24 24"><path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"/></svg>
+            </a>
+            <a href="#" class="social-icon-btn" aria-label="LinkedIn">
+              <svg viewBox="0 0 24 24"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2zM4 2a2 2 0 110 4 2 2 0 010-4z"/></svg>
+            </a>
+            <a href="#" class="social-icon-btn" aria-label="GitHub">
+              <svg viewBox="0 0 24 24"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="footer-links-group">
+          <div class="footer-col">
+            <h4>Navigation</h4>
+            <ul>
+              <li><a href="#features">Features</a></li>
+        <li><a href="#how-it-works">How It Works</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Resources</h4>
+            <ul>
+              <li><a href="#faq">Help Center</a></li>
+              <li><a href="#features">API Documentation</a></li>
+              <li><a href="#testimonials">Customer Stories</a></li>
+              <li><a href="#how-it-works">Community</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Legal</h4>
+            <ul>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Terms of Service</a></li>
+              <li><a href="#">Security & Compliance</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>&copy; 2026 RoamSphere. All rights reserved. Built with precision.</div>
+        <div>Designed for remote workers planning location-independent careers.</div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
